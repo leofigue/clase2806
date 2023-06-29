@@ -19,10 +19,59 @@
   </head>
   <body>
     <header>
-      <nav></nav>
+      <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container-fluid">
+          <img src="assets/img/logo.png"/>
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://getbootstrap.com/docs/5.3/components/carousel/">Bootstrap</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://github.com/Catecus/fdsw-github">Github</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
-    <main></main>
+    <main>
+      <div>
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://cdn-images-1.medium.com/max/2600/1*JT6Yw84iWanGLU2wTfKIIg.jpeg" class="d-block" style="width: 100%; height: 300px;" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://th.bing.com/th/id/R.07804754fd53c5e54e6af659ecb524c6?rik=ygZpgnCwPc1D8A&riu=http%3a%2f%2fwww.altalex.com%2f~%2fmedia%2fImages%2fLex%2fInformatica%2falgoritmo+jpg.jpg&ehk=%2fDpzgM5r%2fONI45uFOhlHUeddy4elEM%2bGoCoIoIoIG08%3d&risl=&pid=ImgRaw&r=0" class="d-block" style="width: 100%; height: 300px;" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://miro.medium.com/max/1200/1*5w_wBLArQlYp6HVRJfga0Q.jpeg" class="d-block" style="width: 100%; height: 300px;" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+    </main>
 
     <footer></footer>
 
